@@ -12,7 +12,7 @@ var numbers = "1234567890";
 
 var generatePassword = function () {
     var daPassword = "";
-    var daPasswordString = "";
+    var daPasswordArray = "";
     var numOfChars = window.prompt("How many characters u want? (between 8 and 128)");
     if (numOfChars < 8 || numOfChars > 128) {
         window.alert("Bruh. It has to be between 8 and 128 characters")
