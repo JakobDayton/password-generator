@@ -44,9 +44,8 @@ var generatePassword = function () {
 
     //randomize that shit. 
     for (var i = 0; i < numOfChars; i++) {
-        var index = Math.floor(Math.random() * daPasswordArray.length); //numOfChars is being used incorrectly
-        daPassword += daPasswordArray.substring(index, index + 1);
-
+        var index = Math.floor(Math.random() * daPasswordArray.length); 
+        daPassword += daPasswordArray.substring(index, index + 1)
     }
     return daPassword;
 
